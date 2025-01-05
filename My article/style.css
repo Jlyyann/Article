@@ -1,0 +1,313 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-attachment: scroll;
+}
+
+.line {
+    position: fixed;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 65px;
+    background-color: maroon;
+    z-index: 7;
+}
+
+.p2{
+  position: fixed;
+    height: 6%;
+    width: 3%;
+    top: 1%;
+    left: 3%;
+    z-index: 8;
+    
+}
+
+.p1{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+ 
+}
+
+.background{
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  top: 7%;
+  filter: blur(2px);
+  z-index: 1;
+}
+
+.t1{
+  position: fixed;
+    top: 3%;
+    left: 7%;
+    font-size: 15px;
+    color: lightgoldenrodyellow;
+    font-family: 'Playfair Display', serif;
+    z-index: 8;
+}
+
+.line2{
+    position: absolute;
+    top: 135%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 70%;
+    background-color: maroon;
+    z-index: 2;
+}
+
+.logo{
+    position: absolute;
+    height: 70%;
+    width: 35%;
+    top: 65%;
+    left: 33%;
+    z-index: 3;
+    filter: blur(2px);
+    text-align: center;
+
+}
+
+.info-container, .info-container1, .info-container2, .info-container3 {
+    position: absolute;
+    transform: translateX(-50%);
+    z-index: 6;
+}
+.info-container{
+      left: 20%;
+      top: 65%;
+}
+
+.info-container1{
+      left: 50%;
+      top: 65%;
+}
+
+.info-container2{
+  left: 80%;    
+  top: 65%;
+}
+
+.info-container3{
+  left: 50%;    
+  top: 120%;
+}
+  
+
+.info-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5); 
+    padding: 15px 25px;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 75%;   
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.info-box:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.info-icon {
+    width: 300px;
+    height: 200px;
+    margin-right: 0px;
+}
+
+.info-text, .info-text1 {
+    font-family: Arial, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.info-text{
+  font-size: 20px;
+}
+
+.info-text1{
+  font-size: 19px;
+}
+
+.person {
+    width: 3%;
+    height: 5%; 
+    border-radius: 50%;
+    position: fixed; 
+    top: 1%; 
+    left: 90%;
+    z-index: 7;
+    cursor: pointer;
+}
+
+.soc, .res {
+  position: absolute;
+    top: 180%;
+    font-size: 20px;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    z-index: 5;
+}
+
+.fb:hover, .ig:hover, .yt:hover {
+  transform: scale(1.05);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.soc{
+  left: 5%;
+}
+
+.res{
+  left: 28%;
+}
+
+.fb, .ig, .yt {
+  width: 3%;
+    height: 5%; 
+    border-radius: 50%;
+    top: 190%;
+    position: absolute; 
+    z-index: 3;
+    cursor: pointer;
+  
+}
+
+.fb {
+    left: 5%;
+}
+
+.ig{
+  left: 10%;
+}
+
+.yt{
+  left: 15%;
+}
+
+.t6, .t7, .t8, .t9, .t10, .t11, .t12{
+  left: 28%;
+  position: absolute; 
+  font-size: 18px;
+  z-index: 2;
+}
+
+.t6{
+  top: 190%;
+}
+
+.t7{
+  top: 197%;
+}
+
+.t8{
+  top: 204%;
+}
+
+.t9{
+  top: 211%;
+}
+
+.t10{
+  top: 218%;
+}
+
+.t11{
+  top: 225%;
+}
+
+.t12{
+  top: 232%;
+}
+
+.t6:hover, .t7:hover, .t8:hover, .t9:hover, .t10:hover, .t11:hover, .t12:hover {
+  transform: scale(1.15);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+ 
+.line3{
+    position: absolute;
+    top: 205%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 70%;
+    background-color: lightgray;
+    z-index: 1;
+}
+
+.logo1{
+  position: absolute;
+    height: 20%;
+    width: 10%;
+    top: 175%;
+    left: 64%;
+    z-index: 3;
+}
+
+.t2{
+  position: absolute;
+    top: 180%;
+    left: 75%;
+    font-size: 15px;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    z-index: 3;
+}
+
+.loc, .email, .call{
+  width: 3%;
+    height: 5%; 
+    left: 70%;
+    border-radius: 50%;
+    position: absolute; 
+    z-index: 7;
+    cursor: pointer;
+    color: orange;
+}
+
+.loc, .t3{
+  top: 200%;
+}
+
+.email, .t4{
+  top: 210%;
+}
+
+.call, .t5{
+  top: 220%;
+}
+
+.t3, .t4, .t5{
+  left: 75%;
+  position: absolute; 
+  font-size: 18px;
+  z-index: 7;
+}
+
+.t13{ 
+  position: absolute; 
+    top: 30%; 
+    left: 30%; 
+    text-align: center;
+    color: maroon; 
+    text-shadow: 
+        -2px -2px 0 white,  
+        2px -2px 0 white,   
+        -2px 2px 0 white,   
+        2px 2px 0 white;
+    font-weight: bold;
+    font-size: 60px; 
+    font-family: 'Playfair Display', serif;
+    z-index: 2;
+}
